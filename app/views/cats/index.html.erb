@@ -1,8 +1,25 @@
 
 <div class="saying">
-Awesome Cat
+ My Awesome Cat
 </div>
 
   <div class="cat_box">
       <%= image_tag 'cat.jpg', class: 'cat' %>
     </div>
+
+<div class="saying">My Cat's Compliments</div>
+<hr>
+<br />
+  <div class="catcomp">
+  <% Cat.all.each do |cat| %>
+
+    <%= cat.compliment %>
+    <br />
+     Compliment By: <%= cat.person %>
+    <br />
+    <br />
+    <hr>
+
+    <% end %>
+
+  </div>

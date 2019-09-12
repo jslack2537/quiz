@@ -19,3 +19,41 @@
   font-size: 100px; 
   text-align: center;
 }
+
+.logo:hover {
+  text-decoration: none;
+}
+
+
+.catcomp {
+   color: red;
+  font-size: 30px; 
+  text-align: center; color: red;
+  
+
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  color: black;
+}
+
+body {
+  background: image_url('bg.png');
+}
+.compmycat {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
